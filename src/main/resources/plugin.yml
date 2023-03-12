@@ -1,0 +1,7 @@
+name: InvisibleItems
+version: ${project.version}
+main: me.dalot.invisibleitems.InvisibleItems
+api-version: 1.19
+authors: [ Dalot421 ]
+commands:
+  hide:
