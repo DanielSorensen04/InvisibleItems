@@ -8,7 +8,7 @@ import me.dalot.invisibleitems.NMSHelper;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import java.lang.reflect.Field;
+import java.lang.reflect. Field;
 import java.util.ArrayList;
 import java.util.List;
 

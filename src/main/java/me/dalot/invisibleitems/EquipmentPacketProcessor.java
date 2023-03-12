@@ -13,10 +13,7 @@ import java.util.List;
 public abstract class EquipmentPacketProcessor {
     protected abstract void process(PacketEvent event);
 
-    /**
-     * Re-sends the PacketPlayOutEntityEquipment packet to all players, for this particular player
-     * @param player The player to send the equipment packet on behalf of
-     */
+ 
     @SneakyThrows
     public static void refreshEquipmentOfPlayerForAllPlayers(Player player) {
         List<Pair<Object, Object>> equipmentPairList = new ArrayList<>();

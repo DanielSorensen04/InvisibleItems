@@ -49,10 +49,10 @@ public class InvisibleItems extends JavaPlugin {
             sender.sendMessage(ChatColor.GREEN + "Fjerner alle hiding packets.");
         } else if (context.equalsIgnoreCase("held")) {
             setEquipmentPacketProcessor(new HeldItemProcessor());
-            sender.sendMessage(ChatColor.YELLOW + "Gør nu dit item i hånden usynlig");
+            sender.sendMessage(ChatColor.YELLOW + "Gør nu dit item i hånden usynlig.");
         } else if (context.equalsIgnoreCase("all")) {
             setEquipmentPacketProcessor(new AllItemsProcessor());
-            sender.sendMessage(ChatColor.RED + "Gør nu alle items usynlige>");
+            sender.sendMessage(ChatColor.RED + "Gør nu alle items usynlige.");
         } else {
             sender.sendMessage(ChatColor.DARK_RED + "/hide [none | held | all]");
         }
